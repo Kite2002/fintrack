@@ -1,8 +1,8 @@
-const { json } = require('express')
-const express=require('express')
-const router = express.Router()
-const Account=require('./models')
-const mongoose=require('mongoose')
+const { json } = require('express');
+const express = require('express');
+const router = express.Router();
+const Account = require('./models');
+const mongoose = require('mongoose');
 
 router.get('/:id', async(req,res)=>{
    
@@ -57,4 +57,4 @@ router.delete('/:id',(req,res)=>{
     res.json({mssg:'Delete your account'})
 });
 
-module.exports =router
+module.exports = router

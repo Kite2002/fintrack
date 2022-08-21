@@ -7,6 +7,7 @@ import Investments from './pages/Investments'
 import Emi from './pages/Emi'
 import Navbar from './components/Navbar'
 import Head from "./components/Head";
+import { Signup } from "./pages/signup";
 
 function App() {
   return (
@@ -31,6 +32,10 @@ function App() {
             <Route 
               path="/emi" 
               element={<Emi />} 
+            />
+            <Route
+              path="/signup"
+              element={<Signup />}
             />
           </Routes>
         </div>
