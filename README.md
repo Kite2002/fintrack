@@ -1,17 +1,4 @@
--->
-<a name="readme-top"></a>
 
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
 
@@ -39,11 +26,9 @@ FinTrack is currently a web application that can fill in as a tool to facilitate
 
 
 ### Built With
+React js
 
 
-
-
-* [![React][React.js]][React-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -54,3 +39,8 @@ FinTrack is currently a web application that can fill in as a tool to facilitate
 
 
 
+![1](https://user-images.githubusercontent.com/83082995/185801609-639272ba-6ef7-459c-bc4f-11ce6b48f170.png)
+![2](https://user-images.githubusercontent.com/83082995/185801615-4e80056e-7245-44a8-b5c6-67e8c3315c29.png)
+![3](https://user-images.githubusercontent.com/83082995/185801617-d8ced519-6048-45b6-b837-400460d9e30b.png)
+![4](https://user-images.githubusercontent.com/83082995/185801619-6c06c1b3-8bb6-4346-a4ab-a882fb46a23a.png)
+![5](https://user-images.githubusercontent.com/83082995/185801621-a4a26d80-039c-4797-aeed-c2c7c1b5b554.png)
