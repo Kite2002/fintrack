@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+
+
+/* layout */
+:root {
+  --primary: #3D5AF1;
+  --error: #e7195a;
+}
+body {
+  background: #EDF0F2;
+  margin: 0;
+  font-family: "Poppins";
+}
+header {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  height: 100vh;
+  border-radius: 0px 50px 50px 0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+header .container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  
+}
+header a {
+  color: var(--primary);
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+
+header h1{
+  position: relative;
+  color: #fff;
+  padding: 10px;
+  border-radius: 25px;
+  font-weight: 500;
+  z-index: 1;
+}
+
+header h1::after{
+  content: " ";
+  height: 50px;
+  width: 120px;
+  background-color: var(--primary);
+  position: absolute;
+  transform: translatex(-3.2em);
+  z-index: -1;
+  border-radius: 50px;
+}
+
+header h3{
+  font-weight: 500;
+}
+
+.nav span , .Head span{
+  line-height: 1.6;
+  margin-right: 10px;
+  margin-top: 15px;
+  color: #fff;
+  background-color: var(--primary);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  text-align: center;
+  vertical-align: center !important;
+}
+
+
+.container .nav{
+  padding-top: 2em;
+}
+
+.container .nav a:last-child{
+  padding-top: 10em;
+  color: rgb(255, 87, 87) !important;
+}
+
+.container .nav a:last-child span{
+  background-color: rgb(255, 87, 87) !important;
+}
+
+.pages{
+  padding: 20px;
+  margin-top: 60px;
+  margin-left: 40px;
+  width: 80%;
+}
+
+.App{
+  display: flex;
+  flex-direction: row;
+}
+
+.Head{
+  display: flex;
+  position: absolute;
+  right: 2em;
+}
+
+.Head h4{
+  color: var(--primary);
+  font-weight: 600;
+  border-radius: 25px;
+}
+
+.home .sec1 .budget{
+  background-color: var(--primary);
+  color: #fff;
+  border-radius: 30px ;
+  padding: 15px;
+  font-weight: 500;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+}
+
+.home .sec1 .budget h1 ,.home .sec1 .budget h2 ,.home .sec1 .budget h3,.home .sec1 .budget h4{
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+h2 , h3, h4{
+  font-weight: 500;
+
+}
+
+.home .sec1{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.home .sec1 .budget span{
+  line-height: 1.6;
+  margin-right: 10px;
+  margin-top: 15px;
+  color: var(--primary);
+  background-color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  text-align: center;
+  vertical-align: center !important;
+}
+
+.spend{
+  display: flex;
+  flex-direction: row;
+  align-items: center;;
+}
+.spend *{
+  padding-left: 5px;
+}
+
+.home .sec1_1 .account{
+  display: flex;
+}
+
+.button{
+  background-color: #fff;
+  color: var(--primary);
+  margin: 20px;
+  padding: 5px;
+  border-radius: 25px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.button *{
+  padding: 5px;
+}
+
+.rch{
+  height: 200px;
+  width: 120%;
+}
+
+.home .sec1_1 .charts{
+  display: flex;
+  align-items: center;
+}
+
+.home .sec2{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.home .sec2 .tTable *{
+  padding: 15px;
+  margin: 5px;
+}
+
+th{
+  color: var(--primary);
+}
+
+.tForm form{
+  background-color: var(--primary);
+  padding: 20px;
+  border-radius: 25px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.tForm *{
+  padding: 3px;
+}
+
+button{
+  background-color: #fff;
+  color: var(--primary);
+  border: none;
+  padding: 10px;
+  width: 150px;
+  font-size: large;
+  height: 25px;
+  border-radius: 10px;
+
+}
+
+input{
+  border-radius: 30px;
+}
+
+.form1{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+select{
+  width: 150px;
+  border-radius: 30px;
+  border: none;
+}
+
+.field{
+  display: flex;
+  flex-direction: column;
+}
+
+
